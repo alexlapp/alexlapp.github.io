@@ -20,3 +20,41 @@ body {
   text-align: center;
   font-size: 4vw;
 }
+
+#about {
+  margin-left: 1%;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.showcase {
+  border: 2px #f8f8f2 solid;
+  width: 32%;
+  height: 125px;
+  padding: 3px;
+  margin: 3px;
+}
+
+.showcase-header {
+  font-size: 1.1vw;
+  text-decoration: underline;
+}
+
+/* Mobile Overrides */
+@media (max-width: 767px) {
+  #name-header {
+    font-size: 10vw;
+  }
+  .showcase-header {
+    font-size: 4vw;
+  }
+  #about {
+    flex-direction: column-reverse;
+  }
+
+  .showcase {
+    width: auto;
+  }
+}
