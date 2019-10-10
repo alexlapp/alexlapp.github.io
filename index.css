@@ -30,7 +30,7 @@ body {
 }
 
 .showcase {
-  border: 2px #f8f8f2 solid;
+  border: 2px #6272a4 solid;
   width: 32%;
   height: 125px;
   padding: 3px;
@@ -40,6 +40,7 @@ body {
 .showcase-header {
   font-size: 1.1vw;
   text-decoration: underline;
+  color: #bd93f9;
 }
 
 /* Mobile Overrides */
