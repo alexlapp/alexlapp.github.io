@@ -32,9 +32,12 @@ body {
 .showcase {
   border: 2px #6272a4 solid;
   width: 32%;
-  height: 125px;
   padding: 3px;
   margin: 3px;
+}
+
+.showcase a {
+  color: #8be9fd
 }
 
 .showcase-header {
